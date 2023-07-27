@@ -14,6 +14,3 @@ def home():
     else:
         return render_template('translator.html', holder="english")  
 
-
-if __name__ == "__main__":
-    app.run(debug=True)
