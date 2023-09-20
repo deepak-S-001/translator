@@ -13,7 +13,3 @@ def home():
         return render_template('translator.html', text=translated, place=text, holder=target)
     else:
         return render_template('translator.html', holder="english")  
-
-
-if __name__ == "__main__":
-    app.run(debug=True)
